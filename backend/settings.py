@@ -41,12 +41,12 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Contoso"
-    logo: Optional[str] = None
-    chat_logo: Optional[str] = None
+    title: str = "Motion Health Club"
+    logo: Optional[str] = "/assets/MotionHealthClub_Logotyp_Primary_Terra_RGB.svg"
+    chat_logo: Optional[str] = "/assets/MotionStudios_Symbol_Primary_Terra_RGB.svg"
     chat_title: str = "Start chatting"
     chat_description: str = "This chatbot is configured to answer your questions"
-    favicon: str = "/favicon.ico"
+    favicon: str = "/assets/mfavicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
 
